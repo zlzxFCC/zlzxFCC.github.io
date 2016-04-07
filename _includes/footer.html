@@ -1,13 +1,17 @@
-<footer class="site-footer">
 
-  <div class="wrapper">
-  
-    <div class="col-wrapper">     
-     
-        <p>{{ site.description }}</p>
-     
+ <!-- Footer Start -->
+
+<footer>
+
+    {% include social-buttons.html %}
+
+    <p><br><br></p>
+
+    <div class="container text-center">
+      <p>Copyright &copy; {{ site.author }} {{ site.time | date: "%Y" }}</p>
     </div>
-
-  </div>
-
 </footer>
+
+<p><br><br><br><br><br><br></p>
+
+<!-- Footer End -->
