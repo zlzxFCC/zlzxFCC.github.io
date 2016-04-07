@@ -6,9 +6,9 @@ category: tech
 tags: [ 'tutorial' ]
 ---
 One of the coolest features of { Personal } is that enables you to tell your life's story in
-the form of a timeline of photos, dates and text descriptions.
+the form of a时间轴of photos, dates and text descriptions.
 
-The Timeline is controlled by the following variables:
+The时间轴is controlled by the following variables:
 
 <pre><code data-trim class="yaml">
 events:
@@ -25,7 +25,7 @@ timeline-img: "/img/timeline/default.png"
 </code></pre>
 
 For each event of your life, add a tuple of image, date and description to the events,
-and the timeline will be automatically generated!
+and the时间轴will be automatically generated!
 
 The timeline-img path variable is the image that you want to show up in the beginning of your Timeline, be creative!
 

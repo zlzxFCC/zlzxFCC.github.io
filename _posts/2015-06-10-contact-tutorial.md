@@ -6,14 +6,14 @@ category: tech
 tags: [ 'tutorial' ]
 ---
 
-The contact part of the index page is consisted of two elements:
+The联系part of the index page is consisted of two elements:
 
 <ol>
   <li>Text</li>
   <li>Your email address</li>
 </ol>
 
-You can modify the Contact text from the /contact.html file and set the email in the site config:
+You can modify the联系text from the /contact.html file and set the email in the site config:
 
 <pre><code data-trim class="yaml">
 email: "your@email.here"
