@@ -63,9 +63,9 @@ force-https: True
 
 <pre><code data-trim class="yaml">
 lang: "en"
-author: "斓诗窈"
-title: "{ 斓诗窈 }"
-description: "Blog and website of 斓诗窈, blogging mainly for tech. Opinions expressed are mine."
+author: "Sara"
+title: "{ Sara }"
+description: "Blog and website of Sara, blogging mainly for tech. Opinions expressed are mine."
 keywords: "smith, jones, personal, jekyll, theme"
 favicon: "/img/favicon.ico"
 404-img: "/img/labtocat.png"
