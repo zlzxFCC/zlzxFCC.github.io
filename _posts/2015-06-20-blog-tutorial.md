@@ -6,8 +6,8 @@ category: tech
 tags: [ 'tutorial' ]
 ---
 
-A website is truly personal if it hosts your博客as well, this place of the internet
-where you can place your thoughts关于anything!
+A website is truly personal if it hosts yourblogas well, this place of the internet
+where you can place your thoughtsaboutanything!
 
 ### Latest post preview in Index page
 
@@ -22,7 +22,7 @@ Feel free to experiment with different sizes, and pick the best for you :smile:
 
 ### Archive
 
-A博客is expected to host many posts, so you will need an archive with pagination,
+Ablogis expected to host many posts, so you will need an archive with pagination,
 which in a nutshell it's a grouping of your posts in pages, in reverse chronological
 order. You can define the number of posts that are displayed per page by changing:
 

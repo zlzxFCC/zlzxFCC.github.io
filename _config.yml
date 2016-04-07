@@ -82,7 +82,7 @@ icon-144p: "/img/web-app/icon-144p.png"
 icon-192p: "/img/web-app/icon-192p.png"
 
 ########
-#博客#
+#blog#
 ########
 
 post-preview-words: 96
@@ -105,7 +105,7 @@ disqus-shortname: "panossakkos"
 syntax-highlight: True
 
 ############
-#时间轴#
+#timeline#
 ############
 
 events:
@@ -124,13 +124,13 @@ timeline-img: "/img/timeline/default.png"
 #联系#
 ###########
 
-email: "your@email.here"
+email: "1280073025@qq.com"
 
 ################
 # Author Blurb #
 ################
 
-# The author blurb goes underneath博客posts.
+# The author blurb goes underneathblogposts.
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped

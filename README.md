@@ -3,7 +3,7 @@
 
 # { Personal } Jekyll Theme
 
-{ Personal } is a free responsive Jekyll theme,关于you :wink:
+{ Personal } is a free responsive Jekyll theme,aboutyou :wink:
 
 You can watch it in action [here](https://panossakkos.github.io/personal-jekyll-theme/)!
 
@@ -11,14 +11,14 @@ You can watch it in action [here](https://panossakkos.github.io/personal-jekyll-
 
 * Fork of [Timeline](https://github.com/kirbyt/timeline-jekyll-theme) (mashup of [Grayscale by Start Bootstrap](https://github.com/IronSummitMedia/startbootstrap-grayscale) and [Agency Jekyll Theme](https://github.com/y7kim/agency-jekyll-theme))
   * Modern and minimal design
-    * Responsive templates for home page,博客archive and posts. Looks great on mobile, tablet, and desktop devices
+    * Responsive templates for home page,blogarchive and posts. Looks great on mobile, tablet, and desktop devices
     * Sweet animations
     * Gracefully degrades in older browsers. Compatible with Internet Explorer 8+ and all modern browsers
   * Timeline
-    * Tell your story so far with a sleek时间轴of dates, pictures and descriptions
+    * Tell your story so far with a sleektimelineof dates, pictures and descriptions
   * White on black text, making the reading experience tireless
   * Google analytics  
-* Customization and full control of your website and博客through the site config
+* Customization and full control of your website andblogthrough the site config
 * Customization of the website's coloring
 * Blogging functionality
   * Preview of the latest post in the home page
@@ -61,7 +61,7 @@ The theme contains documentation in the form of [blog posts](https://panossakkos
 ![Blog](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/blog.jpg)
 ### Timeline
 ![Timeline](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/timeline.jpg)
-###博客Archive
+###blogArchive
 ![Archive](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/archive.jpg)
 ### Gesture navigation instructions
 ![Instructions](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/swipe.jpg)
@@ -99,7 +99,7 @@ Then, you can build and serve your website by simply running:
 
 ## Wiki
 
-Don't forget to list your { Personal }博客in the [Blogs using { Personal }](https://github.com/PanosSakkos/personal-jekyll-theme/wiki/Blogs-using-%7B-Personal-%7D) wiki page in order to drive some traffic to your website :wink:
+Don't forget to list your { Personal }blogin the [Blogs using { Personal }](https://github.com/PanosSakkos/personal-jekyll-theme/wiki/Blogs-using-%7B-Personal-%7D) wiki page in order to drive some traffic to your website :wink:
 
 ## Integrating bug fixes and features into your old fork
 
