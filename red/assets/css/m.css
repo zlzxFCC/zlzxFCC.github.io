@@ -1,0 +1,53 @@
+html { -webkit-text-size-adjust: 100%; -webkit-touch-callout: none; -webkit-user-select: none; -webkit-tap-highlight-color: transparent; }
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, img, input, legend, li, ol, p, pre, td, textarea, th, ul { margin: 0; padding: 0 }
+body { position: absolute; top: 0; left: 0; width: 100%; height: 100%; font: 14px/1.5 "Helvetica neue", Helvetica, Tahoma, Arial, "\5FAE\8F6F\96C5\9ED1", "\5B8B\4F53", sans-serif;}
+.grid { max-width: 640px; height: 100%; margin: 0 auto; display: none; position: relative;}
+.index { position: relative; }
+.top { width: 640px;height: 419px; background: url(../img/bg-top.png) no-repeat; background-size: 100% 100%;}
+#btn-start {width: 230px;height: 238px; background: url(../img/startBtn.png); background-size: 100% 100%; position: relative;top: 30px; left: 0; margin: 0 auto; cursor: pointer;}
+#btn-ticket { width: 300px; height: 100px; background: url(../img/ticketBtn.png); background-size: 100% 100%; margin: 30px auto; cursor: pointer; }
+#btn-ticket a { width: 300px; height: 100px; display: block }
+.bottom {/* top: 0; *//* position: relative; *//* height: auto; *//* padding: 10px; */}
+.rules {color: #A1A1A1; font-size: 1.6em;padding: 30px 30px 50px 30px; position: relative;}
+.content {height: auto;}
+.rules h3 { line-height: 2em; }
+.content p { line-height: 2em; }
+.copyright { position: absolute; bottom: 10px; left: 0; width: 100%; text-align: center;color: #A1A1A1; font-size: 1.6em;}
+.loading { width: 100%; height: 100%; }
+.loader { position: fixed; top: 50%; left: 50%; margin-left: -25px; margin-top: -25px; }
+.overlay { position: fixed; left: 0; right: 0; top: 0; height: 100%; z-index: 10; background: rgba(20, 20, 20, .5); display: none; }
+.scuess, .fail, .error {display: none; width: 500px; height: 456px; background: url(../img/mailer.png); background-size: 100% 100%; position: relative; top: 200px; margin: 0 auto;}
+.money-t { color: #ff4646; font-size: 1.8em; position: relative; top: 10px; left: 0; line-height: 160px; text-align: center; }
+.money { font-size: 2em; }
+.parise { font-size: 2em; }
+.fail-t { font-size: 1.6em; }
+.chance, .message { font-size: 1.6em; }
+.message { height: 140px; padding-top: 10px; }
+.desc { color: #FFF; text-align: center; line-height: 3em; }
+.money-fail, .money-error { color: #953200; font-size: 1.8em; position: relative; top: 10px; left: 0; line-height: 160px; text-align: center; }
+.fail .desc .fail-t { font-size: 1.6em; line-height: 3em; }
+@media all and (max-width:481px) {
+	.grid { width: 100%; height: 100%; margin: 0 auto;display: none; position: relative; font-size: 10px;}
+	.top { width: 100%;height: 210px; background: url(../img/bg-top.png) no-repeat; background-size: 100% 100%;}
+	#btn-start {width: 115px;height: 119px; background: url(../img/startBtn.png); background-size: 100% 100%; position: relative;top: 20px; left: 0; margin: 0 auto; cursor: pointer;}
+	#btn-ticket { width: 150px; height: 50px; background: url(../img/ticketBtn.png); background-size: 100% 100%; cursor: pointer; position: absolute; bottom: 0px; margin: 5px 50px; }
+	#btn-ticket a { width: 150px; height: 50px; display: block }
+	.bottom {}
+	.rules { font-size: 1.6em;padding: 15px 15px 50px 15px;}
+	.content { }
+	.rules h3 { line-height: 2em; }
+	.content p { }
+	.copyright { position: absolute; bottom: 10px; left: 0; width: 100%; text-align: center; font-size: 1.6em;}
+	.loading { width: 100%; height: 100%; }
+	.loader { position: fixed; top: 50%; left: 50%; margin-left: -25px; margin-top: -25px; }
+	.overlay { position: fixed; left: 0; right: 0; top: 0; height: 100%; z-index: 10; background: rgba(20, 20, 20, .5);/* display: none; */}
+	.scuess, .fail, .error { width: 250px; height: 228px; background: url(../img/mailer.png); background-size: 100% 100%; position: relative; top: 120px; margin: 0 auto; }
+	.money-t { color: #ff4646; font-size: 1.6em; position: relative; top: 10px; left: 0; line-height: 60px; text-align: center; }
+	.money-fail, .money-error { font-size: 1.6em; position: relative; top: 10px; left: 0; line-height: 60px; text-align: center; }
+	.money { font-size: 2em; }
+	.parise { font-size: 1.8em; }
+	.fail-t { font-size: 1.6em; }
+	.chance { font-size: 1.6em; }
+	.message { height: 80px; }
+	.desc { color: #FFF; text-align: center; line-height: 2em; padding: 10px; }
+}

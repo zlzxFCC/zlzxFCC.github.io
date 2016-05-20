@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<title>金猴呈瑞，大银幕送万元红包！</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,minimal-ui">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+        <link rel="icon" type="image/gif" href="assets/img/share.png">
+        <link rel="stylesheet" href="assets/css/loader.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/m.css">
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    </head>
+    <body>
+        <div class="loading">
+            <div class="loader">
+                <div class="loader-inner pacman"><div>
+                </div>
+                <div></div><div></div><div></div><div></div></div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="index">
+                <div class="top">
+                </div>
+                <div id="btn-start"></div>
+                <div class="bottom">
+                    <div class="rules">
+                        <h3>活动规则：</h3>
+                        <div class="content">
+                            <p>1、关注微信订阅号@大银幕电影，回复“抢红包”即可；</p>
+                            <p>2、每人限领取一个现金红包；</p>
+                            <p>3、每个现金红包的金额随机；</p>
+                            <p>4、红包现金总额为10,000元；</p>
+                            <p>5、红包数量有限，抢完即止；</p>
+                            <p>6、红包经微信官方渠道发放。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">本活动最终解释权归@大银幕电影所有。</div>
+            </div>
+            
+            <div id="over" class="overlay">
+            	<div class="scuess">
+                <div class="money-t">恭喜你抢到<span id="money" class="money">99.99</span>元</div>
+                    <div class="desc">
+                        <p class="parise">太厉害了！</p>
+                        <p class="fail-t">击败了<span id="vRate"></span>%的小伙伴。</p>
+                        <p class="chance">再给你一次抢电影票的机会，你还会成功吗？</p>
+                    </div>
+                    <div id="btn-ticket"><a href="http://mp.weixin.qq.com/s?__biz=MzI0NjA1MjQyOA==&mid=400230903&idx=1&sn=e5d9330cdc392141030df3529cc1f918#rd "></a></div>
+                </div>
+                <div class="fail">
+                <div class="money-fail">非常遗憾，你来晚了</div>
+                    <div class="desc">
+                        <p class="fail-t">所有红包都已被一扫而空</p>
+                        <p class="chance">但是！我们再给你一次抢电影票的机会，加油！</p>
+                    </div>
+                    <div id="btn-ticket"><a href="http://mp.weixin.qq.com/s?__biz=MzI0NjA1MjQyOA==&mid=400230903&idx=1&sn=e5d9330cdc392141030df3529cc1f918#rd "></a></div>
+                </div>
+                <div class="error">
+                <div class="money-error">非常抱歉</div>
+                    <div class="desc">
+                        <p class="message">异常</p>
+                    </div>
+                    <div id="btn-ticket"><a href="http://mp.weixin.qq.com/s?__biz=MzI0NjA1MjQyOA==&mid=400230903&idx=1&sn=e5d9330cdc392141030df3529cc1f918#rd "></a></div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/red.js"></script>
+        <!-- <script src="/assets/javascripts/wxShare.js?url=@curUrl"></script> -->
+	    <script>
+			window.shareData = {
+				imgUrl: "http://" + location.host+ "/assets/img/share.png",
+				timeLineLink: "http://mp.weixin.qq.com/s?__biz=MzI0NjA1MjQyOA==&mid=402827544&idx=1&sn=606b3d6f85032af122136e59cb9c548d#rd",
+				tTitle: "我在@大银幕电影抢到了1.58元红包，你能超越我吗？",
+				tContent: "来晚一分钟，感觉自己错过了一个亿。"
+			}
+			window.onload=function(){
+            	game.initEvent(1,2);
+            }
+            // DCAgent.init({appId:"E2E6DEE7CCDEE3919AD10A68359E6E61",virus:false});
+		</script>
+    </body>
+</html>
